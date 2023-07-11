@@ -11,6 +11,7 @@
 ## Directory structure
 * **utils**: the process of preparing the features and labels for the TSI task.
 * **model**: our proposed NMFD-GNN and NMFD-GNN-HINGE models.
+* **main**: the implementation of proposed models.
 * **result**: the screenshot of our implementation results.
 * **figure**: description of problems, methods, and data.
 
