@@ -29,7 +29,7 @@ Jiawei Xue, Eunhan Ka, Yiheng Feng, Satish V. Ukkusuri\*, July 2023.
 
 ## NMFD-GNN = the physics module (the λ-trapezoidal MFD) + the machine learning module (the graph convolutional network)
 * The λ-trapezoidal MFD was proposed by the following study:
-* Ambühl, et al. (2020). A functional form with a physical meaning for the macroscopic fundamental diagram. Transportation Research Part B: Methodological.
+* Ambühl, et al. (2020). A functional form with a physical meaning for the macroscopic fundamental diagram. Transportation Research Part B.
 <p align="center">
   <img src="https://github.com/JiaweiXue/NMFD_GNN/blob/main/figure/method.png" width="500">
 </p>
