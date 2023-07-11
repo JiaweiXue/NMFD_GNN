@@ -23,12 +23,22 @@ Jiawei Xue, Eunhan Ka, Yiheng Feng, Satish V. Ukkusuri\*, July 2023.
 
 ## Building the PIML to perform the TSI task.
 <p align="center">
-  <img src="https://github.com/JiaweiXue/NMFD_GNN/blob/main/figure/task.png" width="500">
+  <img src="https://github.com/JiaweiXue/NMFD_GNN/blob/main/figure/task.png" width="400">
 </p>
 
-## The PIML is composed of the physics module based on the λ-trapezoidal MFD, and the machine learning module based on the graph convolutional network.
+## PIML = the physics module (the λ-trapezoidal MFD) + the machine learning module (the graph convolutional network).
 <p align="center">
   <img src="https://github.com/JiaweiXue/NMFD_GNN/blob/main/figure/method.png" width="500">
+</p>
+
+## Study areas and MFDs
+
+<p align="center">
+  <img src="https://github.com/JiaweiXue/NMFD_GNN/blob/main/figure/study_area.png" width="400">
+</p>
+
+<p align="center">
+  <img src="https://github.com/JiaweiXue/NMFD_GNN/blob/main/figure/mfd.png" width="400">
 </p>
 
 ## License
