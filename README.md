@@ -20,10 +20,13 @@
 
 ## Paper
 **Network Macroscopic Fundamental Diagram-informed Graph Learning for Traffic State Imputation.**
-Poster presentation at ISTTT25; Publication on Transportation Research Part B: Methodological.
-Jiawei Xue, Eunhan Ka, Yiheng Feng, Satish V. Ukkusuri\*, June 2024.
+Jiawei Xue, Eunhan Ka, Yiheng Feng, Satish V. Ukkusuri\*, June 2024. 
 
-## Building the PIML to perform the TSI task
+Poster presentation at ISTTT25; Publication on Transportation Research Part B: Methodological.
+
+
+
+## Building NMFD-GNN to perform the TSI task
 <p align="center">
   <img src="https://github.com/JiaweiXue/NMFD_GNN/blob/main/figure/task.png" width="300">
 </p>
@@ -45,6 +48,16 @@ Jiawei Xue, Eunhan Ka, Yiheng Feng, Satish V. Ukkusuri\*, June 2024.
 <p align="center">
   <img src="https://github.com/JiaweiXue/NMFD_GNN/blob/main/figure/mfd.png" width="550">
 </p>
+
+The following papers form a solid foundation for this study. We sincerely thank their contributions to the community.
+
+| Index | Authors | Title | Publication |  
+| :-----| :-----| :-----| :-----|
+| 1 | Loder, A., L. Ambühl, M. Menendez, and K. W. Axhausen| Understanding traffic capacity of urban networks | Scientific Reports, 2019 |
+| 2 | Johari, M., M. Keyvan-Ekbatani, L. Leclercq, D. Ngoduy, and H. S. Mahmassani| Macroscopic network-level traffic models: Bridging fifty years of development toward the next era | TR-Part C, 2021 |
+| 3 | Ambühl, L, A. Loder, M. C. Bliemer, M. Menendez, and K. W. Axhausen| A functional form with a physical meaning for the macroscopic fundamental diagram | TR-Part B, 2020 |
+| 4 | Zhou, J., Cui, G., Hu, S., Zhang, Z., Yang, C., Liu, Z., Wang, L., Li, C. and Sun, M| Graph neural networks: A review of methods and applications | AI Open, 2020 |
+| 5 | Liang. Y., Z. Zhao, and L. Sun| Memory-augmented dynamic graph convolution networks for traffic data imputation with diverse missing patterns | TR-Part C, 2022 |
 
 ## License
 MIT license
