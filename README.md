@@ -3,7 +3,7 @@
 * A physics-informed machine learning model for traffic state imputation (TSI).
 
 ## Error correction
-*【June 24, 2024】We identified an error in our paper today. The current Eq. 3 is $\tilde{A}^{fix} = (\tilde{D}^{fix})^{-1/2}\tilde{E}^{fix}(\tilde{D}^{fix})^{1/2}$, which should be correcly stated as $\tilde{A}^{fix} = (\tilde{D}^{fix})^{-1/2}\tilde{E}^{fix}(\tilde{D}^{fix})^{-1/2}$. Our codes and implementation results are correct. Please refer to the code starting from line 81 at https://github.com/JiaweiXue/NMFD_GNN/blob/main/model/nmfd_gnn.py. We apologize for any inconvenience this may have caused our readers.
+*【June 24, 2024】We identified an error in our paper today. The current Eq. 3 is $\tilde{A}^{fix} = (\tilde{D}^{fix})^{-1/2}\tilde{E}^{fix}(\tilde{D}^{fix})^{1/2}$, which should be correctly stated as $\tilde{A}^{fix} = (\tilde{D}^{fix})^{-1/2}\tilde{E}^{fix}(\tilde{D}^{fix})^{-1/2}$. Our codes and implementation results are correct. Please refer to the code starting from line 81 at https://github.com/JiaweiXue/NMFD_GNN/blob/main/model/nmfd_gnn.py. We apologize for any inconvenience this may have caused our readers.
 
 ## Introduction
 * TSI refers to the estimation of missing values of traffic variables, such as flow rate and traffic density, using available data.
