@@ -30,6 +30,7 @@ from shapely.geometry import Point, LineString, Polygon
 # 3. train.json.
 # 4. validation.json.
 # 5. test.json.
+# 6. mean_std
 
 
 # # 0: set hyperparameters
@@ -129,7 +130,7 @@ print (np.max(occ_table_7), np.min(occ_table_7), np.mean(occ_table_7))
 # In[7]:
 
 
-#check the outliers in the table
+#3.3: check the outliers in the table
 def check_ratio_outlier(input_table, threshold, sign):
     count = 0
     n_row, n_column = len(input_table), len(input_table[0])

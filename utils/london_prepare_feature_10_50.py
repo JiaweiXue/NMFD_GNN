@@ -30,6 +30,7 @@ from shapely.geometry import Point, LineString, Polygon
 # 3. train.json.
 # 4. validation.json.
 # 5. test.json.
+# 6. mean_std
 
 
 # # 0: set hyperparameters
@@ -38,7 +39,7 @@ from shapely.geometry import Point, LineString, Polygon
 
 
 train_ratio, vali_ratio = 0.60, 0.20
-M = 20                       #number of time interval in a window
+M = 10                       #number of time interval in a window
 missing_ratio = 0.50
 file_name = "m_" + str(M) + "_missing_" + str(int(missing_ratio*100))
 print (file_name)
@@ -49,12 +50,12 @@ print (file_name)
 # In[4]:
 
 
-city_name = "zurich"
-root_path = "/home/umni2/a/umnilab/users/xue120/umni4/2023_mfd_traffic/"
+city_name = "london"
+root_path = "/home/umni2/a/umnilab/users/xue120/umni4/2023_mfd_traffic_london/"
 
 #1.1: define traffic data path
 #flow: 106, 3360; #occ: 106, 3360
-df_traffic = json.load(open(root_path + "1_check_data/" + "zurich_flow_traffic_final.json"))
+df_traffic = json.load(open(root_path + "1_check_data/" + "london_flow_traffic_final.json"))
 
 #1.2: read detector data
 #[detid, length, pos, fclass, road, limit, citycode, lanes, linkid, long, lat]
@@ -66,7 +67,7 @@ print ("# detector", len(df_detector_city))
 
 #1.3: read selected detector data
 #{K10D11: [0, 0.0735],...}
-df_detector_selected = json.load(open(root_path + "1_check_data/" + "zurich_detid_final.json"))
+df_detector_selected = json.load(open(root_path + "1_check_data/" + "london_detid_final.json"))
 
 
 # # 2: prepare adjacency matrix
@@ -129,7 +130,7 @@ print (np.max(occ_table_7), np.min(occ_table_7), np.mean(occ_table_7))
 # In[7]:
 
 
-#check the outliers in the table
+#3.3: check the outliers in the table
 def check_ratio_outlier(input_table, threshold, sign):
     count = 0
     n_row, n_column = len(input_table), len(input_table[0])
